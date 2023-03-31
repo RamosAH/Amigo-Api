@@ -12,7 +12,7 @@ namespace Amigos_Api.Controllers {
 
 
         const string connectionString =
-            "Data Source=amigos-tp3.database.windows.net;Initial Catalog=AmigoDB_tp3;User ID=heitor;Password=Pipoc@15;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            "Data Source=amigos-tp3.database.windows.net;Initial Catalog=AmigoDB_tp3;User ID=Nome;Password=Password;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection conn = new SqlConnection(connectionString);
 
         // GET: api/<AmigoController>
